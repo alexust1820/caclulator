@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Awesome project</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="./assets/styles/base.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/button.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/calculator.css">
+</head>
+<body>
+	<div class="calc">
+		<h3 class="calc__answer" id="js-answer">0</h3>
+		<div class="buttons">
+			<button class="button" onclick="Clear()">AC</button>
+			<button class="button" onclick="Task('-')">-</button>
+			<button class="button" onclick="Task('+')">+</button>
+			<button class="button" onclick="Task('*')">*</button>
+			<button class="button" onclick="Task('/')">/</button>
+			<button class="button" onclick="Point()">.</button>
+			<button class="button" onclick="Add('0')">0</button>
+			<button class="button" onclick="Add('9')">9</button>
+			<button class="button" onclick="Add('8')">8</button>
+			<button class="button" onclick="Add('7')">7</button>
+			<button class="button" onclick="Add('6')">6</button>
+			<button class="button" onclick="Add('5')">5</button>
+			<button class="button" onclick="Add('4')">4</button>
+			<button class="button" onclick="Add('3')">3</button>
+			<button class="button" onclick="Add('2')">2</button>
+			<button class="button" onclick="Add('1')">1</button>
+			<button class="button answer" onclick="Total()">=</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="./assets/scripts/main.js"></script>
+</body>
+</html>

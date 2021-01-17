@@ -1,0 +1,29 @@
+.button {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: var(--c-grey);
+    color: var(--c-text);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.answer {
+    width: 100%;
+    background-color: green;
+}
+
+.button.-success {
+    background-color: var(--c-success);
+    color: var(--c-white);
+}
+
+.button.-success:hover {
+    background-color: var(--c-success-hover);
+}

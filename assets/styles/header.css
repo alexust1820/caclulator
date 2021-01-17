@@ -1,0 +1,19 @@
+header {
+	width: 100%;
+	padding: 20px 0;
+	background-color: var(--c-header);
+	text-align: center;
+}
+
+header a {
+	color: var(--c-white);
+	background-color: var(--c-black);
+	padding: 7px 10px;
+	transition: .2s;
+}
+
+header a:hover {
+	transition: .2s;
+	color: var(--c-black);
+	background-color: var(--c-white);
+}

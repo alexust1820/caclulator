@@ -12,11 +12,24 @@
     margin-right: 10px;
     margin-bottom: 10px;
     cursor: pointer;
+    transition: .2s;
+}
+
+.button:hover {
+    transition: .2s;
+    color: var(--c-black);
+    background-color: var(--c-white);
 }
 
 .answer {
     width: 100%;
     background-color: green;
+}
+
+.answer:hover {
+    transition: .2s;
+    color: var(--c-white);
+    background-color: var(--c-orange);
 }
 
 .button.-success {

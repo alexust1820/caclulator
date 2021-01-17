@@ -1,6 +1,8 @@
 .calc {
 	width: 250px;
 	height: 400px;
+	margin-top: auto;
+	margin-bottom: auto;
 	background-color: gray;
 	border-radius: 5px;
 	display: flex;
